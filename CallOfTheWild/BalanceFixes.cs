@@ -62,7 +62,7 @@ namespace CallOfTheWild
 
             fixSorcererBloodlineArcana();
             fixFeats();
-            fixClassFeatures();
+            // fixClassFeatures();
             fixTwf();
             fixVitalStrike();
             fixCleave();

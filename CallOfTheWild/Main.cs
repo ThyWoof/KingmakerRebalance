@@ -145,11 +145,11 @@ namespace CallOfTheWild
 
                     CallOfTheWild.Rebalance.fixAnimalCompanion();
 
-                    if (settings.reduce_skill_points)
-                    {
-                        Main.logger.Log("Reducing class skillpoints to 1/2 of pnp value.");
-                        CallOfTheWild.Rebalance.fixSkillPoints();
-                    }
+                    // if (settings.reduce_skill_points)
+                    // {
+                    //     Main.logger.Log("Reducing class skillpoints to 1/2 of pnp value.");
+                    //     CallOfTheWild.Rebalance.fixSkillPoints();
+                    // }
 
                     if (settings.fix_teamwork_feats)
                     {
@@ -176,7 +176,7 @@ namespace CallOfTheWild
                     CallOfTheWild.Rebalance.removePowerOfWyrmsBuffImmunity();
                     CallOfTheWild.Rebalance.fixWidomCognatogen();
                     CallOfTheWild.Rebalance.fixTransmutionSchoolPhysicalEnhancement();
-                    CallOfTheWild.Rebalance.fixSylvanSorcerorAnimalCompanion();
+                    // CallOfTheWild.Rebalance.fixSylvanSorcerorAnimalCompanion();
                     CallOfTheWild.Rebalance.fixLegendaryProportionsAC();
                     CallOfTheWild.Rebalance.removeJudgement19FormSHandMS();
                     CallOfTheWild.Rebalance.fixDomains();
